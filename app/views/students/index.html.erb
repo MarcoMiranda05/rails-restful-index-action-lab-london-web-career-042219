@@ -1,0 +1,6 @@
+<h1>All the students</h1>
+<ul>
+<% @students.each do |student| %>
+  <li>Student Name: <%= student.to_s %></li>
+<% end %>
+</ul>
